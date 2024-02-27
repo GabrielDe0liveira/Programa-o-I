@@ -1,16 +1,7 @@
 ﻿using System.Security.AccessControl;
 
-string name = string.Empty;
-string email = string.Empty;
-string dob = string.Empty;
-string genre = string.Empty;
-string CEP = string.Empty;
-string street = string.Empty;
-string number = string.Empty;
-string nbhd = string.Empty;
-string city = string.Empty;
-string UF = string.Empty;
-string country = string.Empty;
+string name, email, dob, genre, CEP, street, number, nbhd, city, UF, country  = string.Empty;
+
 
 Console.WriteLine("Qual é o seu nome?");
 name = Console.ReadLine();
@@ -36,7 +27,7 @@ Console.WriteLine("Qual é o seu País?");
 country = Console.ReadLine();
 
 Console.WriteLine("Aqui está sua ficha de cadastro!!");
-Console.WriteLine($"Seu nome é: {name}");
+Console.WriteLine($"Seu nome é: {name} \n Seu email é: {email}");
 Console.WriteLine($"Seu email é: {email}");
 Console.WriteLine($"Sua data de nascimento é: {dob}");
 Console.WriteLine($"Seu gênero é: {genre}");
