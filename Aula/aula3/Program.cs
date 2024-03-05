@@ -24,3 +24,6 @@ Console.WriteLine($"Segundo resultado: {isNomeEqual2}");
  double myDouble = 5d;
  decimal myDecimal = 7m;
  int myInteger = 0;
+
+
+ 
